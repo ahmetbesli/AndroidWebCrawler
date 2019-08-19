@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="5"
+    style="@style/Theme.AppCompat.Light.NoActionBar"
+    tools:context=".MainActivity">
+    <WebView
+        android:id="@+id/web"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp">
+
+    </WebView>
+
+    <RelativeLayout
+        android:id="@+id/facebook"
+        android:background="#0F027B"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/twitter"
+        android:background="#2997BD"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/xing"
+        android:background="#1FAF39"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/youtube"
+        android:background="#D20E0E"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/linkedin"
+        android:background="#0E55D2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </RelativeLayout>
+
+</LinearLayout>
